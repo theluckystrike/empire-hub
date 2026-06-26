@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resources &mdash; Empire Hub</title>
+<meta name="description" content="Open-source crates, package references, and documentation sites behind the Empire Hub calculator network. All links are editorial dofollow.">
+<style>
+  :root{
+    --bg:#0d1117; --card:#161b22; --border:#30363d; --text:#e6edf3;
+    --muted:#8b949e; --accent:#58a6ff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  .wrap{max-width:860px; margin:0 auto; padding:48px 24px 80px}
+  header h1{font-size:2.0rem; margin:0 0 8px; letter-spacing:-0.02em}
+  header p{color:var(--muted); margin:0 0 6px; font-size:1.02rem}
+  .note{font-size:.85rem; color:var(--muted)}
+  .back{margin-top:14px; font-size:.92rem}
+  section{margin-top:40px}
+  h2{font-size:1.2rem; margin:0 0 14px; color:var(--accent)}
+  ul{list-style:none; padding:0; margin:0}
+  li{
+    background:var(--card); border:1px solid var(--border);
+    border-radius:10px; padding:14px 18px; margin-bottom:12px;
+  }
+  li a{color:var(--accent); font-weight:600; font-size:1.0rem; text-decoration:none}
+  li a:hover{text-decoration:underline}
+  li p{margin:6px 0 0; font-size:.88rem; color:var(--muted)}
+  .meta{font-size:.78rem; color:var(--muted); margin-top:6px}
+  .meta a{font-weight:400; color:var(--muted); text-decoration:underline}
+  footer{margin-top:48px; color:var(--muted); font-size:.82rem}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Resources</h1>
+    <p>The open-source packages, references, and documentation sites that power the Empire Hub calculators.</p>
+    <p class="note">Every link on this page is a reviewed, dofollow link to a resource we own and maintain.</p>
+    <p class="back"><a href="index.html">&larr; Back to site directory</a></p>
+  </header>
+
+  <section>
+    <h2>Open-source packages</h2>
+    <ul>
+
+      <li>
+        <a href="https://pkg.go.dev/github.com/theluckystrike/gold-melt-value" rel="dofollow">gold-melt-value (Go package)</a>
+        <p>Pure, dependency-free Go math that computes precious-metal melt value from karat, weight, and a live spot price. The engine behind GoldGramPrice.</p>
+        <div class="meta">Also indexed on
+          <a href="https://docs.rs/gold-melt-value/latest/gold_melt_value/" rel="dofollow">docs.rs</a> &middot;
+          <a href="https://lib.rs/crates/gold-melt-value" rel="dofollow">lib.rs</a> &middot;
+          <a href="https://github.com/theluckystrike/gold-melt-value" rel="dofollow">source</a>
+        </div>
+      </li>
+
+      <li>
+        <a href="https://pkg.go.dev/github.com/theluckystrike/dscr-ratio" rel="dofollow">dscr-ratio (Go package)</a>
+        <p>Debt service coverage ratio (DSCR) for rental-property loans: NOI &divide; annual debt service. The engine behind DSCRRadar.</p>
+        <div class="meta">Also indexed on
+          <a href="https://docs.rs/dscr-ratio/latest/dscr_ratio/" rel="dofollow">docs.rs</a> &middot;
+          <a href="https://lib.rs/crates/dscr-ratio" rel="dofollow">lib.rs</a> &middot;
+          <a href="https://github.com/theluckystrike/dscr-ratio" rel="dofollow">source</a>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <section>
+    <h2>Documentation mini-sites</h2>
+    <ul>
+
+      <li>
+        <a href="https://theluckystrike.github.io/gold-melt-value-docs/" rel="dofollow">gold-melt-value docs</a>
+        <p>MkDocs Material documentation for the gold-melt-value package: melt value by karat, weight, and live spot price.</p>
+        <div class="meta"><a href="https://github.com/theluckystrike/gold-melt-value-docs" rel="dofollow">source repo</a></div>
+      </li>
+
+      <li>
+        <a href="https://theluckystrike.github.io/dscr-ratio-docs/" rel="dofollow">dscr-ratio docs</a>
+        <p>MkDocs Material documentation for the dscr-ratio package: DSCR for rental-property and investment real-estate loans.</p>
+        <div class="meta"><a href="https://github.com/theluckystrike/dscr-ratio-docs" rel="dofollow">source repo</a></div>
+      </li>
+
+    </ul>
+  </section>
+
+  <section>
+    <h2>Datasets</h2>
+    <ul>
+      <li>
+        <a href="https://github.com/theluckystrike?tab=repositories&q=dataset&type=source" rel="dofollow">Dataset &amp; reference-data repositories</a>
+        <p>Open repositories of the reference data behind these calculators (tax brackets, lake-level feeds, spot-price series, HS tariff tables). Zenodo DOI deposits for the long-running series are published from these repos as they stabilize.</p>
+        <div class="meta">Canonical datasets are versioned in their source repos above; this listing will link individual Zenodo DOIs as each is minted.</div>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Maintained by <a href="https://github.com/theluckystrike" rel="dofollow">theluckystrike</a>. All links are editorial dofollow. <a href="index.html">Return to the site directory.</a></p>
+  </footer>
+</div>
+</body>
+</html>

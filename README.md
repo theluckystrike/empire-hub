@@ -29,7 +29,10 @@ This hub serves as an editorial, dofollow index of sites we own and operate. Eac
 
 ## Structure
 
-- `index.html` — the entire site. Static HTML + inline CSS only.
+- `index.html` — the site directory: a dofollow card per calculator site, each with a one-line description and the site's primary keyword.
+- `resources.html` — dofollow links to the open-source packages (pkg.go.dev / docs.rs / lib.rs), the docs mini-sites, and the dataset repositories behind the calculators.
+
+Static HTML + inline CSS only. No JavaScript, no tracking.
 
 ## Deploy
 
